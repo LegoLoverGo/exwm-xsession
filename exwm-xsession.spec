@@ -11,7 +11,7 @@ Summary:    EXWM xsession package
 License:    MIT
 
 %description
-Puts a EXWM xsession file in %{\_datadir}/xsessions/exwm.desktop
+Puts a EXWM xsession file in %{_datadir}/xsessions/exwm.desktop
 
 %prep
 
@@ -24,11 +24,11 @@ Type=Application
 EOF
 
 %install
-mkdir -p %{buildroot}%{\_datadir}/xsessions
-install -m 755 emacs.desktop %{buildroot}%{\_datadir}/xsessions/emacs.desktop
+mkdir -p %{buildroot}%{_datadir}/xsessions
+install -m 755 emacs.desktop %{buildroot}%{_datadir}/xsessions/emacs.desktop
 
 %files
-/%{\_datadir}/xsessions/emacs.desktop
+%{_datadir}/xsessions/emacs.desktop
 
 %changelog
 
