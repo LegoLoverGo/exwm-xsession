@@ -28,7 +28,7 @@ mkdir -p %{buildroot}%{\_datadir}/xsessions
 install -m 755 emacs.desktop %{buildroot}%{\_datadir}/xsessions/emacs.desktop
 
 %files
-%{\_datadir}/xsessions/emacs.desktop
+/%{\_datadir}/xsessions/emacs.desktop
 
 %changelog
 
